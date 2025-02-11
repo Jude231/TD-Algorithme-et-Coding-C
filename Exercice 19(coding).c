@@ -23,7 +23,7 @@ int main() {
     }
 
     // Affichage du résultat pour n1
-    if (estPremier1)
+    if (estPremier1==1)
         printf("%d est un nombre premier.\n", n1);
     else
         printf("%d n'est pas un nombre premier.\n", n1);
@@ -41,7 +41,7 @@ int main() {
     }
 
     // Affichage du résultat pour n2
-    if (estPremier2)
+    if (estPremier2==1)
         printf("%d est un nombre premier.\n", n2);
     else
         printf("%d n'est pas un nombre premier.\n", n2);
